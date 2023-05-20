@@ -63,7 +63,7 @@ const ContainerCard = styled.div`
 const Closed = styled.div`
     ${(props) => props.openCard ? 'display: none !important;' : ''}
 
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
     height: 65px;
     border-radius: 5px;
     position: relative;
